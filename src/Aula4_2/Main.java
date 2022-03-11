@@ -4,7 +4,9 @@ import java.util.Queue;
 public class Main {
 	public static void main(String[] args) {
 		Queue<String> fila = new LinkedList<>();
+		
 		fila.add("Joao");
+		fila.add("André");
 		fila.add("Rosemberg");
 		fila.add("Kalina");
 	    fila.add("Filipe");
