@@ -15,15 +15,7 @@ public class Main {
 		pilha.push("Codificar");
 		pilha.push("Testar");
 		
-		System.out.println(pilha);
-		
-		
-		String obj = pilha.pop();
-		
-		pilhaI.push(obj);
-		
-		
-		
+		System.out.println(pilha);		
 		
 		pilhaI.push(pilha.pop());
 		pilhaI.push(pilha.pop());
