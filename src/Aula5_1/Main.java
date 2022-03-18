@@ -15,12 +15,17 @@ public class Main {
 		pilha.push("Codificar");
 		pilha.push("Testar");
 		
-		System.out.println(pilha);		
+		System.out.println(pilha);	
 		
-		pilhaI.push(pilha.pop());
-		pilhaI.push(pilha.pop());
-		pilhaI.push(pilha.pop());
-		pilhaI.push(pilha.pop());
+//		int tam = pilha.size();
+//		for (int i = 0; i<tam;i++) {
+//			pilhaI.push(pilha.pop());
+//		}
+		
+//		pilhaI.push(pilha.pop());
+//		pilhaI.push(pilha.pop());
+//		pilhaI.push(pilha.pop());
+//		pilhaI.push(pilha.pop());
 		
 		//System.out.println(pilha);
 		System.out.println(pilhaI);
