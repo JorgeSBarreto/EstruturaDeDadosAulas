@@ -41,6 +41,12 @@ public class ListaSimples {
 			nodoFinal.setProximo(novoNodo);
 			}
 	}
+	
+	void removerPrimeiroElemento(){ 
+	      Nodo nodo = this.getPrimeiro();
+	      if (nodo != null) 
+	    	 this.setPrimeiro(nodo.getProximo());  
+	    }
 		
 
 }
