@@ -26,6 +26,8 @@ public class Main {
 		
 		lista.adicionarNoFinal(35);
 		
+		System.out.println(lista.getSize());
+		
 	}
 
 }

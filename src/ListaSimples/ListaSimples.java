@@ -2,6 +2,8 @@ package ListaSimples;
 
 public class ListaSimples {
 	
+	private int size = 0;
+	
 	private Nodo primeiro;
 	
 	public Nodo getPrimeiro() {
@@ -22,6 +24,8 @@ public class ListaSimples {
 		novoNodo.setProximo(this.getPrimeiro());
 		
 		this.setPrimeiro(novoNodo);
+		
+		size = getSize() + 1;
 	}
 	
 	public void adicionarNoFinal(float valor) {
@@ -40,13 +44,19 @@ public class ListaSimples {
 			
 			nodoFinal.setProximo(novoNodo);
 			}
+		size = getSize() + 1;
 	}
 	
 	void removerPrimeiroElemento(){ 
 	      Nodo nodo = this.getPrimeiro();
 	      if (nodo != null) 
 	    	 this.setPrimeiro(nodo.getProximo());  
-	    }
+	      size = getSize() - 1;    
+	}
+
+	public int getSize() {
+		return size;
+	}
 		
 
 }
