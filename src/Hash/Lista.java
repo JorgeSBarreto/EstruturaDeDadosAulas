@@ -1,3 +1,5 @@
+package Hash;
+
 
 public class Lista {
 	No inicio;
